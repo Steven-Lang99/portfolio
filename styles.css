@@ -136,18 +136,18 @@ h4 {
 
 .first-portfolio{
    justify-content: center;
-   margin-left: 40%;
+   margin-left: 50%;
    margin-right: 50%;
    padding: 10px;
     margin: 50px;
-    padding-right: 60px;
-    /* border: 10px solid black; */
-   padding: 5px;
+    padding-right: 35%;
+   padding-left: 35%;
 }
 
 .first-portfolio img {
     width: 400px;
     height: 400px;
+    
 }
 
 figure {
@@ -155,17 +155,16 @@ figure {
 }
 
 figcaption {
-    display: table-caption;
     caption-side: bottom;
 }
 
- #Image-1{
+ /* #Image-1{
     justify-content: center;
         padding: 10px;
         margin: 50px;
         width: 100px;
         height: 100px;
-}
+} */
 
 /* .first-portfolio{
     display: flex;
@@ -187,6 +186,7 @@ figcaption {
         flex: 33.33%;
         padding: 10px;
         margin: 50px;
+        padding-left: 60px;
         /* padding-right: 60px; */
         /* border: 10px solid black; */
       }
