@@ -106,7 +106,6 @@ header.text-right {
     align-items: center;
     background-color: rgb(94, 202, 206);
     color: blue;
-    font-size: 15px;
     padding-left: 2%;
     border-bottom: 10px solid black;
 }
@@ -151,7 +150,7 @@ h4 {
     padding: 10px;
     margin: 50px;
     padding-right: 35%;
-    padding-left: 35%;
+    padding-left: 30%;
 }
 
 .first-portfolio img {
@@ -194,8 +193,8 @@ figcaption {
 
 .column {
     flex: 33.33%;
-    padding: 10px;
-    margin: 50px;
+    padding: 5px;
+    margin: 25px;
     padding-left: 60px;
     /* padding-right: 60px; */
     /* border: 10px solid black; */
@@ -234,13 +233,6 @@ figcaption {
 
     }
 
-    img {
-        display: flex;
-        justify-content: center;
-        width: 275px;
-        height: 250px;
-        border: 10px solid black;
-    }
 
     #left-section {
         display: inline-block;
@@ -267,6 +259,15 @@ figcaption {
         font-size: 10px;
     }
 
+    section h1,
+    section h3 {
+        font-size: 15px;
+        color: blue;
+    }
 
+    .first-portfolio {
+        width: 50%
+    }
+     
 
 }
