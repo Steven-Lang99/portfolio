@@ -61,6 +61,7 @@ header {
     margin-right: 25px;
 }
 
+/*This section is to format the about me page with the individual boxes for each header*/
 .Career,
 .Family,
 .Hobbies,
@@ -110,12 +111,6 @@ header.text-right {
     border-bottom: 10px solid black;
 }
 
-/* .text-right{
-    text-align: right;
-    font-size: large;
-} */
-
-
 .text-center {
     display: flex;
     justify-content: center;
@@ -142,7 +137,8 @@ h4 {
     color: rgb(3, 3, 3);
 }
 
-
+/*This section is for the project images. The images are display correctly on the page.*/
+/*The images do not line up with the page when it is shrunk down. I try to get them to line up back they were not ajusting with the page*/
 .first-portfolio {
     justify-content: center;
     margin-left: 50%;
@@ -167,65 +163,29 @@ figcaption {
     caption-side: bottom;
 }
 
-/* #Image-1{
-    justify-content: center;
-        padding: 10px;
-        margin: 50px;
-        width: 100px;
-        height: 100px;
-} */
-
-/* .first-portfolio{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 400px;
-    padding-left: 40px;
-    align-items: center;
-    width: 400px;
-    height:400px;
-    border: 15px solid black; 
-} */
-
-
 .portfolio {
     display: flex;
 }
 
 .column {
     flex: 33.33%;
+    float: left;
     padding: 5px;
     margin: 25px;
     padding-left: 60px;
-    /* padding-right: 60px; */
-    /* border: 10px solid black; */
 }
 
-/* .portfolio {
-        display: inline;
-        margin-left: 225px;
-        padding-left: 35px;
-        padding-top: 50px;
-        width: 800px;
-        height:800px;
-        border: 15px solid black;
-      } */
-
+/*I was trying to get my project images to make a column at the bottom
+but I was unable to get them to line up. Most of the text elements work where they shrink down when the width is below 800.*/
 @media (max-width: 800px) {
 
     h4 {
         font-size: 10px;
-        color: rgb(3, 3, 3);
     }
 
     header.text-right {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: rgb(94, 202, 206);
-        color: blue;
         font-size: 10px;
-        padding: 10px;
-        border-bottom: 10px solid black;
+
     }
 
     .text-center ul li a {
@@ -235,23 +195,15 @@ figcaption {
 
 
     #left-section {
-        display: inline-block;
-        margin-left: 20px;
         font-size: 10px;
-        background: rgb(94, 202, 206)
+
     }
 
     #right-section {
-        margin-left: 20px;
-        background: rgb(38, 177, 187);
-        border: 10px solid black;
         font-size: 10px;
     }
 
     footer {
-        margin-top: 0;
-        bottom: 0;
-        border-top: 10px solid;
         font-size: 10px;
     }
 
@@ -262,12 +214,11 @@ figcaption {
     section h1,
     section h3 {
         font-size: 15px;
-        color: blue;
+
     }
 
-    .first-portfolio {
-        width: 50%
-    }
-     
+.portfolio{
+    width: 50%;
+}
 
 }
