@@ -28,9 +28,9 @@ a {
     color: blue;
 }
 
-header, footer {
+header {
     height: 60px;
-    width: 100%;
+    width: 98%;
     line-height: 60px;
     background-color: wheat;
     
@@ -73,7 +73,8 @@ header, footer {
     border: 10px solid black
 }
 .Career img, .Family img, .Hobbies img, .Future img{
-    max-height: 350px;
+    width: 275px;
+    height: 250px;
 }
 
 .Career h2, .Family h2, .Hobbies h2, .Future h2{
@@ -82,6 +83,10 @@ font-size: 25px;
 }
 
 footer {
+height: 60px;
+width: 100%;
+line-height: 60px;
+ background-color: wheat;
   margin-top: 0;
   bottom: 0;
   border-top: 10px solid;  
@@ -93,8 +98,8 @@ header.text-right {
     align-items: center;
     background-color: wheat;
     color: blue;
-    font-size: 15px;   
-    padding: 10px;
+    font-size: 15px; 
+    padding-left: 2%;  
     border-bottom: 10px solid black;
 }
 /* .text-right{
@@ -133,9 +138,16 @@ h4 {
    justify-content: center;
    margin-left: 40%;
    margin-right: 50%;
-   /* border: 10px solid black; */
    padding: 10px;
-   width: 50%;
+    margin: 50px;
+    padding-right: 60px;
+    /* border: 10px solid black; */
+   padding: 5px;
+}
+
+.first-portfolio img {
+    width: 400px;
+    height: 400px;
 }
 
 figure {
@@ -147,12 +159,13 @@ figcaption {
     caption-side: bottom;
 }
 
-/* #Image-1{
+ #Image-1{
     justify-content: center;
         padding: 10px;
         margin: 50px;
-        border: 10px solid black;
-} */
+        width: 100px;
+        height: 100px;
+}
 
 /* .first-portfolio{
     display: flex;
@@ -174,7 +187,7 @@ figcaption {
         flex: 33.33%;
         padding: 10px;
         margin: 50px;
-        padding-right: 60px;
+        /* padding-right: 60px; */
         /* border: 10px solid black; */
       }
 
