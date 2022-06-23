@@ -169,7 +169,6 @@ figcaption {
 
 .column {
     flex: 33.33%;
-    float: left;
     padding: 5px;
     margin: 25px;
     padding-left: 60px;
@@ -218,7 +217,32 @@ but I was unable to get them to line up. Most of the text elements work where th
     }
 
 .portfolio{
-    width: 50%;
+    flex: 50%;
+}
+
+.column{
+    flex: 50%;
+}
+img {
+display: flex;
+flex-direction: column;
+width:100px;
+height: 100px;
+}
+
+.first-portfolio img {
+    align-items:initial;
+    width: 150px;
+    height:150px;
+
+}
+
+.Career h2,
+.Family h2,
+.Hobbies h2,
+.Future h2 {
+    font-size: 15px;
 }
 
 }
+
