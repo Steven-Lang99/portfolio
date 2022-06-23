@@ -139,7 +139,9 @@ h4 {
 
 /*This section is for the project images. The images are display correctly on the page.*/
 /*The images do not line up with the page when it is shrunk down. I try to get them to line up back they were not ajusting with the page*/
-.first-portfolio {
+
+/*This section of code was to center the html image but I was running into to many problems centering it.*/
+/* .first-portfolio {
     justify-content: center;
     margin-left: 50%;
     margin-right: 50%;
@@ -147,6 +149,13 @@ h4 {
     margin: 50px;
     padding-right: 35%;
     padding-left: 30%;
+} */
+
+.first-portfolio {
+    justify-content: center;
+    padding: 10px;
+    margin: 50px;
+    
 }
 
 .first-portfolio img {
@@ -199,10 +208,6 @@ but I was unable to get them to line up. Most of the text elements work where th
     }
 
     #right-section {
-        font-size: 10px;
-    }
-
-    footer {
         font-size: 10px;
     }
 
