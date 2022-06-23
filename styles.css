@@ -155,7 +155,7 @@ h4 {
     justify-content: center;
     padding: 10px;
     margin: 50px;
-    
+
 }
 
 .first-portfolio img {
@@ -221,33 +221,34 @@ but I was unable to get them to line up. Most of the text elements work where th
 
     }
 
-.portfolio{
-    flex: 50%;
-}
+    .portfolio {
+        flex: 50%;
+    }
 
-.column{
-    flex: 50%;
-}
-img {
-display: flex;
-flex-direction: column;
-width:100px;
-height: 100px;
-}
+    /* I tried to make a column for the three image projects but I could not get them to change to the column format.*/
+    .column {
+        flex: 50%;
+    }
 
-.first-portfolio img {
-    align-items:initial;
-    width: 150px;
-    height:150px;
+    img {
+        display: flex;
+        flex-direction: column;
+        width: 100px;
+        height: 100px;
+    }
+
+    .first-portfolio img {
+        align-items: initial;
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .Career h2,
+    .Family h2,
+    .Hobbies h2,
+    .Future h2 {
+        font-size: 15px;
+    }
 
 }
-
-.Career h2,
-.Family h2,
-.Hobbies h2,
-.Future h2 {
-    font-size: 15px;
-}
-
-}
-
