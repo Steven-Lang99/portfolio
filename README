@@ -6,10 +6,11 @@ This is my portfolio I have create. It has multiple links to some of my portfoli
 
 ## Screenshot of my portfolio
 
-![Screenshot](./img/Screenshot.png)
+
+![Screenshot]<img scr="./img/Screenshot.png">
 
 
 
 ## Link to my application
 
-![Link] https://github.com/Steven-Lang99/portfolio
+![Link] https://steven-lang99.github.io/portfolio/
